@@ -1,0 +1,79 @@
+body {
+  margin: 0 auto;
+  max-width: 1920px;
+  padding-top: 78px;
+}
+
+.barra-gray-responsive {
+  border-bottom: 2px solid rgb(180, 180, 180);
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+/*
+
+precisa acertar para widescreen
+
+.container-fluid-max {
+  max-width: 1950px;
+}
+
+*/
+
+.font-color-txt {
+  color: rgb(32, 163, 199);
+}
+
+#home-quote {
+  background: url('../img/bg-quote.jpg') center center;
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  #home-quote .display-4 {
+    font-size: 2rem;
+  }
+  body {
+    padding: 0px;
+  }
+  .fixed-top {
+    position: relative;
+  }
+}
+
+.pergunta-line {
+  border-bottom: 1px solid #bebbbb;
+}
+
+.table-cntr {
+  margin: auto;
+}
+.th-cntr {
+  text-align: center;
+}
+
+.td-cntr {
+  margin: 0 auto;
+  display: block;
+  width: min-content;
+  min-width: 60%;
+}
+
+.bdg-fnt-sz {
+  font-size: 47%;
+  vertical-align: text-top;
+}
+
+.list-end li + li {
+  border-top: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.line-list li {
+  padding: 0.5rem;
+}
+
+.box-img-div {
+  display: flex;
+  align-items: flex-end;
+}
